@@ -1,0 +1,44 @@
+💻 Software Requirements
+JDK (Java Development Kit)
+
+Version: JDK 8 or higher
+Used to compile and run Java applications. Ensure the JAVA_HOME environment variable is set correctly.
+Download JDK
+NetBeans IDE
+
+Version: 12.0 or higher
+Development environment used for creating and debugging the project.
+Download NetBeans
+SQLyog
+
+Version: Community or Enterprise Edition
+A database management tool for managing the MySQL database used in the project.
+Download SQLyog
+Database
+
+Database System: MySQL 5.7 or higher
+Import the provided database scripts to initialize the required schema and tables.
+JAR Files
+
+MySQL Connector JAR: Enables Java applications to connect to the MySQL database.
+Ensure all required .jar files are added to the project's build path in NetBeans.
+📂 Project Structure
+Source Code
+Contains Java, XML, and JAR files required for the application.
+Database
+Includes .sql files to create and populate the database schema.
+Documentation
+Project report, flowcharts, and diagrams explaining the system.
+🚀 Setup Steps
+Install Software: Download and install the tools mentioned above.
+Database Setup:
+Open SQLyog or any preferred database tool.
+Import the .sql files provided in the database folder.
+Update the database connection details in the java code if necessary.
+Load the Project:
+Open the NetBeans IDE.
+Import the project folder as an existing project.
+Add the required .jar files to the project's libraries in NetBeans.
+Run the Application:
+Build and run the application using NetBeans.
+The application should be accessible locally or via a specified port.
